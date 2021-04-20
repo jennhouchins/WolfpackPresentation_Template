@@ -109,7 +109,7 @@ a:hover { border-bottom: none; }
 .remark-slide-content {
   background-color: var(--wolfpack-white);
   border-top: 80px solid var(--reynolds-red);
-  font-size: 20px; /* change default text size here NOTE: it will affect column layouts*/
+  font-size: 30px; /* change default text size here*/
   font-weight: 300;
   line-height: 1.5;
   padding: 1em 2em 1em 2em
@@ -205,8 +205,8 @@ hr, .title-slide h2::after, .mline h1::after {
   content: '';
   display: block;
   border: none;
-  background-color: #EB811B;
-  color: #EB811B;
+  background-color: var(--hunt-yellow);
+  color: var(--hunt-yellow);
   height: 1px;
 }
 
