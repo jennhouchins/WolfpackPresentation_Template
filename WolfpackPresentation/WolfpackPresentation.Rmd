@@ -54,24 +54,18 @@ xaringanExtra::use_tile_view()
 
 ```
 
-background-image: url(img/ncstate_logo.png)
-background-position: 95% 95% 
-background-size: 15%
-
 # `r rmarkdown::metadata$title`
 ----
 ### `r rmarkdown::metadata$author`
 ### `r format(Sys.time(), "%B %d, %Y")`
 
 ---
-
 # Agenda
-.font150[
+
 This is what we'll cover today
 - Agenda item 1
 - Agenda item 2
 - Agenda item 3
-]
 
 ---
 # SHOWING YOUR CODE
@@ -83,11 +77,14 @@ print(example)
 alphabet <- letters #<<
 print(alphabet)
 ```
+
+---
+class: clear, wolfhead
+
+.quote[Education is the most powerful weapon which you can use to change the world.]
+.author[~ Nelson Mandela]
 ---
 class: clear, inverse, middle, center
-background-image: url(img/ncstate_logo.png)
-background-position: 95% 95% 
-background-size: 15%
 
 This is an inverse slide example!
 
@@ -115,6 +112,6 @@ class: inverse, clear, center
 
 .pull-right-wide[
 .left[.font70[
-**This work was supported by countless cups of hot tea, cookies, and the RStats Xaringan community willingness to post of plethora of tutorials. But you may wish to thank your funding agency (e.g., the National Science Foundation) and put their logo on the left.**
+This work was supported by countless cups of hot tea, cookies, and the RStats Xaringan community willingness to post of plethora of tutorials. But you may wish to thank your funding agency (e.g., the National Science Foundation) and put their logo on the left as shown here.
 ]]
 ]

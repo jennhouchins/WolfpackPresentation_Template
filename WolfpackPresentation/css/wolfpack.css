@@ -112,7 +112,10 @@ a:hover { border-bottom: none; }
   font-size: 30px; /* change default text size here*/
   font-weight: 300;
   line-height: 1.5;
-  padding: 1em 2em 1em 2em
+  padding: 1em 2em 1em 2em;
+  background-image: url(../img/ncstate_logo.png); /*alternatively can be ncstate-text.png */
+  background-position: 95% 95%; 
+  background-size: 15%;
 }
 
 .title-slide .inverse .remark-slide-content {
@@ -122,6 +125,28 @@ a:hover { border-bottom: none; }
 .inverse {
   background-color: var(--gray-900);
   text-shadow: none;
+}
+
+.wolfhead {
+  background-image: url(../img/wolf-head.png);
+  background-position: -15% 95%; 
+  background-size: 50%;
+}
+
+.wolfhead .quote {
+  float: right;
+  width: 50%;
+  background-color: var(--gray-100);
+  border-radius: 5px 5px 5px 5px;
+  color: var(--wolfpack-black);
+  text-shadow: none;
+  padding: 20px;
+}
+.wolfhead .author {
+  float: right;
+  width: 50%;
+  text-align: right;
+  color: var(--reynolds-red);
 }
 
 /* Removes colored bar from top of the slide resulting in a clear slide */
